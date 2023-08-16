@@ -1,0 +1,31 @@
+.language-list-item {
+  list-style-type: none;
+  margin: 10px;
+}
+
+.btn {
+  height: 42px;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: #1e293b;
+}
+
+@media screen and (min-width: 768px) {
+  .btn {
+    font-size: 20px;
+    height: 44px;
+  }
+}
+
+.active-btn {
+  border: 1px solid #0284c7;
+  border-radius: 20px;
+  color: #0284c7;
+  font-weight: 700;
+}
