@@ -32,6 +32,14 @@ class GithubPopularRepos extends Component {
     this.getAllRepositories()
   }
 
+  renderFailureView = () => (
+    <img
+      src="https://assets.ccbp.in/frontend/react-js/api-failure-view.png"
+      alt="failure view"
+      className="failure-view"
+    />
+  )
+
   changeActiveLanguage = id => {
     this.setState(
       {
